@@ -79,9 +79,20 @@
         integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-       
+
         document.querySelector("input").value = "";
-        document.querySelector(".addbtn").addEventListener('click', function () {
+        document.querySelector(".addbtn").addEventListener('click',
+            completefun
+        );
+        document.querySelector("input").addEventListener('keyup', function () {
+
+            if (event.key === "Enter") {
+                completefun()
+            }
+        }
+        );
+
+        function completefun() {
             if (document.querySelector("input").value.trim() !== "") {
 
                 var inputval = (document.querySelector("input").value.trim());
@@ -119,7 +130,11 @@
                 i.addEventListener('click', removefun)
             });
 
-        });
+        }
+
+
+
+
         function removefun() {
             let keeelement = (this.parentNode.parentNode);
             keeelement.classList.add("complete", "bbk");
@@ -142,4 +157,5 @@
         });
     </script>
 </body>
+
 </html>
