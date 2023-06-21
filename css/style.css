@@ -1,0 +1,232 @@
+ @font-face {
+      font-family: bb2r;
+      src: url(../font-families/static/BalooBhai2-Regular.ttf);
+      font-display: swap;
+ }
+
+ @font-face {
+      font-family: bbpr;
+      src: url(../font-families/hey/BalooBhai2-Regular.ttf);
+      font-display: swap;
+ }
+
+ @font-face {
+      font-family: mpr;
+      src: url(../font-families/MYRIADPRO-REGULAR.OTF);
+      font-display: swap;
+ }
+
+ @font-face {
+      font-family: lb;
+      src: url(../font-families/Lato-Bold.ttf);
+      font-display: swap;
+ }
+
+ @font-face {
+      font-family: msr;
+      src: url(../font-families/Montserrat-Regular.ttf);
+      font-display: swap;
+ }
+
+ ::before,
+ ::after {
+      margin: 0;
+      box-sizing: border-box;
+ }
+
+ a {
+      text-decoration: none;
+ }
+
+ ul {
+      list-style: none;
+      padding: 0;
+ }
+
+ img {
+      vertical-align: bottom;
+ }
+
+ button {
+      cursor: pointer;
+
+      padding: 0;
+ }
+
+ :disabled {
+      cursor: not-allowed;
+ }
+
+ abbr[title] {
+      cursor: help;
+ }
+
+ iframe {
+      border: none;
+ }
+
+ label {
+      display: inline-block;
+ }
+
+
+ ul {
+      padding: 0;
+      margin: 0;
+ }
+
+ .thin {
+      font-weight: 100;
+      margin: auto;
+      padding: 0 1rem;
+ }
+
+
+ .flex {
+      display: flex;
+ }
+
+ .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 1rem;
+ }
+
+
+ html {
+      font-size: 16px;
+ }
+
+ body {}
+
+ p {}
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5 {
+      padding: 0;
+      margin: 0;
+ }
+
+ h2 {
+      font-size: 4.6875rem;
+ }
+
+ h3 {
+      font-size: 4.18375rem;
+ }
+
+ h4 {
+      font-size: 2.30937rem;
+ }
+
+ .myway {
+      background-color: rebeccapurple;
+      /* position: absolute; */
+      height: 800px;
+      width: 100%;
+      /* top: 4px; */
+
+ }
+
+ footer {
+      background-color: aqua;
+ }
+
+ .taskadd {
+      border: none;
+      border-bottom: 2px solid gainsboro;
+      outline: none;
+      padding-left: 5px;
+ }
+
+ 
+
+ .mki {
+      margin-top: 10px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ }
+
+ .taskaddrow .col-10 {
+      display: flex;
+      align-content: end;
+ }
+
+  
+
+ .incomplete {
+      border: 1px solid black;
+      padding: 5px;
+      background-color: yellow;
+      margin-top: 4px;
+      width: 98%;
+ }
+
+ .delete {
+      color: red;
+      padding: 0 ;
+      margin: 0;
+      text-align: right;
+ }
+
+ .tick {
+      color: darkgreen;
+      font-size: 20px;
+      font-weight: 800;
+ }
+  
+ i{
+     font-size: 30px;
+ }
+  body{
+     background-color: blueviolet;
+  }
+  .deletebtn{
+     cursor: pointer;
+  }
+  .tickbtn{
+     cursor: pointer;
+  }
+ 
+  .incomplete{
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     padding-bottom: 5px;
+     color: black;
+  }
+  .complete{
+     background-color: green;
+  }
+  .added{
+     color: brown;
+     text-transform: uppercase;
+     min-height: 200px;
+     border: 6px solid gainsboro;
+     margin-top: 25px;
+     padding-bottom: 20px;
+
+
+  }
+   .deleted{
+     min-height: 200px;
+     text-transform: uppercase;
+     border: 6px solid gainsboro;
+     margin-top: 50px;
+     padding-top: 10px;
+     padding-bottom: 20px;
+
+   }
+   .newtask,.oldtask{
+     font-size: 20px; color: white; font-weight: 800; 
+     padding: 10px;
+  }
+    .bbk{
+     color: black;
+    }
+  
+  
